@@ -1,5 +1,36 @@
 {
   "mods": {
+    "auto-folder-icons": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795083727653,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795083727653,
+        "users": 0
+      },
+      "metadata": {
+        "architecture": [
+          "x86-64"
+        ],
+        "author": "Sanekx Arcs",
+        "compilerOptions": "-lole32 -luuid -lshell32 -lshlwapi",
+        "description": "Uses folder.ico or favicon.ico inside local folders without desktop.ini.",
+        "github": "https://github.com/SanekxArcs",
+        "include": [
+          "explorer.exe"
+        ],
+        "name": "Automatic Folder Icons",
+        "version": "1.0.0"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7641",
+      "source": {
+        "sha256": "0cd0a595b079f67f5a1bf18c4564b852e722248479cb9838e9b1cfe2619804b8",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/c1cf573ce429f7672526c9b2083e468bdbb87e01/mods/auto-folder-icons.wh.cpp"
+      }
+    },
     "cursor-scheme-extension": {
       "details": {
         "defaultSorting": 0,
@@ -102,6 +133,71 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/4b23515094a8a13273ebccf7a9399aec126cbb9c/mods/desktop-weather-overlay.wh.cpp"
       }
     },
+    "disable-acrylic-snap-preview": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795083727653,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795083727653,
+        "users": 0
+      },
+      "metadata": {
+        "architecture": [
+          "x86-64"
+        ],
+        "author": "QCQ171-C",
+        "compilerOptions": "-lgdi32",
+        "description": "在 Windows 11 恢复 Windows 10 的窗口贴靠动画",
+        "github": "https://github.com/QCQ171-C",
+        "include": [
+          "dwm.exe"
+        ],
+        "license": "MPL-2.0",
+        "name": "禁用 Windows 11 丙烯窗口贴靠动画",
+        "version": "1.0"
+      },
+      "metadataEnglish": {
+        "description": "Restore Aero Style Snap Animation on Windows 11",
+        "name": "Disable acrylic Snap preview"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7653",
+      "source": {
+        "sha256": "a78085c7df19de29511112959ad7bae06dc682b616792e621ffe92d7185d5cd9",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/25e0bb8303c145b20fe6a193a68bf2ee44d9183c/mods/disable-acrylic-snap-preview.wh.cpp"
+      }
+    },
+    "donkarlos-audio-visualizer": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795083727653,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795083727653,
+        "users": 0
+      },
+      "metadata": {
+        "author": "DonKarlos",
+        "compilerOptions": "-lole32 -luuid -lgdi32 -luser32 -lshell32",
+        "description": "Turn system audio into animated bars or a waveform on the desktop, taskbar, or both",
+        "github": "https://github.com/Karlos5000",
+        "include": [
+          "windhawk.exe"
+        ],
+        "license": "MIT",
+        "name": "DonKarlos Audio Visualizer",
+        "version": "1.1.2"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7658",
+      "source": {
+        "sha256": "be5aae85b18a61787de4155902db76f5a8ab8e331f974b535407df5379d5d690",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/9198b6fd0e3a9ff887371b03d795db7bd39667d9/mods/donkarlos-audio-visualizer.wh.cpp"
+      }
+    },
     "explorer-default-folder": {
       "details": {
         "defaultSorting": 0,
@@ -191,6 +287,34 @@
       "source": {
         "sha256": "49af09e1239f83589f71d873ebbeec0374bec0bf11e65fee29e007d3d9940b15",
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/f3a2ffa323df5b5872a0de892f5411cec70f73ff/mods/frosted-window-blur.wh.cpp"
+      }
+    },
+    "language-cursor": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795083727653,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795083727653,
+        "users": 0
+      },
+      "metadata": {
+        "author": "Sanekx Arcs",
+        "compilerOptions": "-lgdiplus -lgdi32 -lshcore -loleacc -lole32 -luuid",
+        "description": "Shows the current keyboard layout as a small badge next to the mouse pointer, with a color, image or custom pointer for each language.",
+        "github": "https://github.com/SanekxArcs",
+        "include": [
+          "windhawk.exe"
+        ],
+        "name": "Language Cursor",
+        "version": "1.0.0"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7642",
+      "source": {
+        "sha256": "f880e45846fa7dd529da5c24541aefa5594d667c8a3607763da657bfea75fccb",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/edd944e1a677cefe7deac0aa95387858d87189a0/mods/language-cursor.wh.cpp"
       }
     },
     "lockscreen-background": {
@@ -355,7 +479,7 @@
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795025098004,
+        "updated": 1795083727653,
         "users": 0
       },
       "metadata": {
@@ -364,7 +488,7 @@
         ],
         "author": "CTravkin",
         "compilerOptions": "-ldwmapi -lole32 -loleaut32 -lruntimeobject -luuid -ladvapi32",
-        "description": "隐藏窗口、“开始”菜单、任务栏和其他系统元素的边框",
+        "description": "隐藏由系统为应用窗口和外壳元素绘制的边框",
         "github": "https://github.com/CTravkin",
         "homepage": "https://ctravkin.ru",
         "include": [
@@ -381,12 +505,12 @@
         "version": "1.2.1"
       },
       "metadataEnglish": {
-        "description": "Hide borders around windows, the Start menu, the taskbar, and other system elements"
+        "description": "Hide system-drawn borders on app windows and shell elements"
       },
       "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7408",
       "source": {
-        "sha256": "bafec5efeb32cd3b3c54326c5d589bc905eb4166250cf28b8860931f4e76f8df",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/1ee07968473c4ddc9abfb576643156ccc75424e0/mods/windows-border-switch.wh.cpp"
+        "sha256": "1b864f3700c4a0ca7bfcfbda69c0a31129cdf17d797a51513e0398534aade9ba",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/cf59db87d6f3fc309afb7f39794cb20d62f4e29c/mods/windows-border-switch.wh.cpp"
       }
     }
   }

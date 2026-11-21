@@ -1,102 +1,5 @@
 {
   "mods": {
-    "auto-folder-icons": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795083727653,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795083727653,
-        "users": 0
-      },
-      "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "Sanekx Arcs",
-        "compilerOptions": "-lole32 -luuid -lshell32 -lshlwapi",
-        "description": "Uses folder.ico or favicon.ico inside local folders without desktop.ini.",
-        "github": "https://github.com/SanekxArcs",
-        "include": [
-          "explorer.exe"
-        ],
-        "name": "Automatic Folder Icons",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7641",
-      "source": {
-        "sha256": "0cd0a595b079f67f5a1bf18c4564b852e722248479cb9838e9b1cfe2619804b8",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/c1cf573ce429f7672526c9b2083e468bdbb87e01/mods/auto-folder-icons.wh.cpp"
-      }
-    },
-    "copy-progress-styles": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795152530533,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795152530533,
-        "users": 0
-      },
-      "metadata": {
-        "author": "Pixeliota",
-        "compilerOptions": "-lgdi32 -lmsimg32",
-        "description": "Restyles the progress bar in the Windows copy/move/delete dialog and in 7-Zip / WinRAR extraction (16 styles)",
-        "github": "https://github.com/Pixeliota",
-        "include": [
-          "explorer.exe",
-          "7zG.exe",
-          "7zFM.exe",
-          "WinRAR.exe"
-        ],
-        "license": "MIT",
-        "name": "File Copy Progress Bar Styles",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7543",
-      "source": {
-        "sha256": "ee4e5d83bd250c6a79d39925abdd711a7e7c29e9195130bdfc60e174203f96c0",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/3f4ab56669bfba9a62083d609df878425195142d/mods/copy-progress-styles.wh.cpp"
-      }
-    },
-    "cursor-scheme-extension": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795025098004,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795152530533,
-        "users": 0
-      },
-      "metadata": {
-        "architecture": [
-          "x86",
-          "x86-64"
-        ],
-        "author": "CTravkin",
-        "compilerOptions": "-lgdi32 -ladvapi32",
-        "description": "Replaces built-in application pointers with pointers from the selected Windows scheme",
-        "github": "https://github.com/CTravkin",
-        "homepage": "https://ctravkin.ru",
-        "include": [
-          "*"
-        ],
-        "license": "MIT",
-        "name": "Cursor Scheme Extension",
-        "version": "1.0.3"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7594",
-      "source": {
-        "sha256": "3a6a360f9d6174505a2b155e61c756342387a5cd237784a7f9e3c0c2e4ed02b9",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/9adb8d4fc8e694e9f88842cc1057dea2eb5dafc3/mods/cursor-scheme-extension.wh.cpp"
-      }
-    },
     "desktop-app-groups": {
       "details": {
         "defaultSorting": 0,
@@ -170,7 +73,7 @@
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795083727653,
+        "updated": 1795238451160,
         "users": 0
       },
       "metadata": {
@@ -178,7 +81,7 @@
           "x86-64"
         ],
         "author": "QCQ171-C",
-        "compilerOptions": "-lgdi32",
+        "compilerOptions": "-lgdi32 -lwevtapi",
         "description": "Restore Aero Style Snap Animation on Windows 11",
         "github": "https://github.com/QCQ171-C",
         "include": [
@@ -190,37 +93,8 @@
       },
       "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7653",
       "source": {
-        "sha256": "a78085c7df19de29511112959ad7bae06dc682b616792e621ffe92d7185d5cd9",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/25e0bb8303c145b20fe6a193a68bf2ee44d9183c/mods/disable-acrylic-snap-preview.wh.cpp"
-      }
-    },
-    "donkarlos-audio-visualizer": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795083727653,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795083727653,
-        "users": 0
-      },
-      "metadata": {
-        "author": "DonKarlos",
-        "compilerOptions": "-lole32 -luuid -lgdi32 -luser32 -lshell32",
-        "description": "Turn system audio into animated bars or a waveform on the desktop, taskbar, or both",
-        "github": "https://github.com/Karlos5000",
-        "include": [
-          "windhawk.exe"
-        ],
-        "license": "MIT",
-        "name": "DonKarlos Audio Visualizer",
-        "version": "1.1.2"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7658",
-      "source": {
-        "sha256": "be5aae85b18a61787de4155902db76f5a8ab8e331f974b535407df5379d5d690",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/9198b6fd0e3a9ff887371b03d795db7bd39667d9/mods/donkarlos-audio-visualizer.wh.cpp"
+        "sha256": "a0edbc68b747a79a3a14cd8f33e46896d157370a518100d6972f5f0f9d0d1b3c",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/db8708f101abb60054e20a02d6a65934ff618f06/mods/disable-acrylic-snap-preview.wh.cpp"
       }
     },
     "explorer-default-folder": {
@@ -257,35 +131,33 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/6b19ead230c08403dab28d1d30bcfd28e2abb0e2/mods/explorer-default-folder.wh.cpp"
       }
     },
-    "explorer-navigation-pane-spacing-fixes": {
+    "explorer-tab-memory": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795152530533,
+        "published": 1795238451160,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795152530533,
+        "updated": 1795238451160,
         "users": 0
       },
       "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "NDruce",
-        "compilerOptions": "-lcomctl32 -lgdi32",
-        "description": "Tidies up the navigation pane of File Explorer: a thin divider next to the files area, even padding on all sides, faded or hidden pin icons, longer or shorter separators and a vertical offset of the expand arrows",
-        "github": "https://github.com/NDruce",
+        "author": "Maxxwell Quinn",
+        "compilerOptions": "-fms-extensions -lole32 -loleaut32 -lshell32 -luuid -ladvapi32 -lcrypt32",
+        "description": "Restores your tabs and active folder when you reopen File Explorer.",
+        "github": "https://github.com/MXXQN",
         "include": [
-          "explorer.exe"
+          "windhawk.exe"
         ],
-        "name": "File Explorer navigation pane: thin divider, even padding",
-        "version": "1.0"
+        "license": "MIT",
+        "name": "Explorer Tab Memory Saver",
+        "version": "0.3.0"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7672",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7713",
       "source": {
-        "sha256": "e93dc86ff3cf3c748435416a26826f68ac892e1c681d25c10074fd45b836dd91",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/dda118b24150aa37202cd56e0158a87de825e8a1/mods/explorer-navigation-pane-spacing-fixes.wh.cpp"
+        "sha256": "d832f666a0299ff805d50180bad1fcb12d3304da1545b000c8d0c969b3eac5e7",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/54e6d828af78702136c1aec003528aa1fcc136b8/mods/explorer-tab-memory.wh.cpp"
       }
     },
     "explorer-tabs-session-saver-revamped": {
@@ -314,35 +186,6 @@
       "source": {
         "sha256": "4ed5ce94075b5359c4182850b0ac5c80c795c70aff97139e65e1fc614d3f37a8",
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/721a9137674f8c731562f377925c9027c7af0a6d/mods/explorer-tabs-session-saver-revamped.wh.cpp"
-      }
-    },
-    "frosted-window-blur": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795043328083,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795152530533,
-        "users": 0
-      },
-      "metadata": {
-        "author": "JeremyWayne93",
-        "compilerOptions": "-ldwmapi -lgdi32 -luser32 -lshell32 -ladvapi32",
-        "description": "Frosted glass blur behind any window, with adjustable strength per window: hold Ctrl+Shift and scroll over it",
-        "github": "https://github.com/JeremyWayne93",
-        "include": [
-          "windhawk.exe"
-        ],
-        "license": "MIT",
-        "name": "Frosted Window Blur",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7557",
-      "source": {
-        "sha256": "e27fc3e55ade671eb6dab9e0a4c5d0577d5199cdef2914d39062f44bd54d72db",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/dde984adc382a397a87ef51864a6152c5711d3f6/mods/frosted-window-blur.wh.cpp"
       }
     },
     "language-cursor": {
@@ -407,33 +250,93 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/760b91ecf9f50687cd4b2ed315b32d32ad8372ea/mods/lockscreen-background.wh.cpp"
       }
     },
-    "simple-wallpaper-switcher": {
+    "shell-font-changer-plus": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795025098004,
+        "published": 1795238451160,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795152530533,
+        "updated": 1795238451160,
         "users": 0
       },
       "metadata": {
-        "author": "HHeitlager",
-        "compilerOptions": "-DWIN32_LEAN_AND_MEAN -lole32 -loleaut32 -lruntimeobject -lshell32 -lcomctl32 -lshlwapi -luuid -ldwmapi -luxtheme -lgdi32 -lmsimg32 -ld2d1 -lwindowscodecs -lgdiplus -ladvapi32 -lshcore",
-        "description": "Browse your wallpaper folders, preview thumbnails, and switch with smooth transitions.",
-        "github": "https://github.com/hheitlager",
+        "author": "DavidHiFi",
+        "compilerOptions": "-lgdi32 -luxtheme -ldwrite",
+        "description": "Any installed font in File Explorer, with icons and emoji left intact",
+        "donateUrl": "https://ko-fi.com/DavidHiFi",
+        "github": "https://github.com/DavidHiFi",
+        "homepage": "https://github.com/DavidHiFi/davids-windhawk-mods",
+        "include": [
+          "explorer.exe"
+        ],
+        "license": "MIT",
+        "name": "Shell Font Changer Plus",
+        "version": "1.3.5"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7342",
+      "source": {
+        "sha256": "124c606301a06fcb1636b58b225c8e87ed8dbe283731a27a9783fb1575c3043c",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/eec67bcfb9e3f958b4262b825d369b89aa8cc1ac/mods/shell-font-changer-plus.wh.cpp"
+      }
+    },
+    "smtc-now-playing-widgets": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795238451160,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795238451160,
+        "users": 0
+      },
+      "metadata": {
+        "author": "minster586",
+        "compilerOptions": "-lgdi32 -lole32 -loleaut32 -ld2d1 -ldwrite -lwindowscodecs -ldwmapi -lshcore -lruntimeobject -luuid",
+        "description": "Multi-instance, multi-monitor Windows 11 Acrylic Now Playing widgets powered natively by SMTC with Standard, Album, Cardstock, and Simplified themes.",
+        "github": "https://github.com/minster586",
+        "homepage": "https://links.smartcraft.me/@minster586",
+        "include": [
+          "windhawk.exe"
+        ],
+        "name": "SMTC Now Playing Desktop Widgets",
+        "version": "1.0.11"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7546",
+      "source": {
+        "sha256": "f646865be867eab005a2a151e6e9fb6e7efe71b78e48ae2d95d6a9bd5e2ff9f4",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/827cac49edf4cbe245942a611c6bc4ea54a1f2fb/mods/smtc-now-playing-widgets.wh.cpp"
+      }
+    },
+    "text-capitalization": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795238451160,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795238451160,
+        "users": 0
+      },
+      "metadata": {
+        "author": "rockinggreninja-bot",
+        "compilerOptions": "-lole32 -loleaut32 -lgdi32 -luser32 -luiautomationcore -lshcore",
+        "description": "Change selected text with five case modes and customizable keyboard shortcuts.",
+        "github": "https://github.com/rockinggreninja-bot",
         "include": [
           "windhawk.exe"
         ],
         "license": "MIT",
-        "name": "Simple Wallpaper Switcher",
-        "version": "0.1.3"
+        "name": "Text Capitalization",
+        "version": "0.3.1"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7616",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7657",
       "source": {
-        "sha256": "c00234e5ec1ec70e3150a26ceedfacb0665bd3c2a0fd5abae0970c7d70edf399",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/de5f05d8fa967fbf84c062e2301948725005fb83/mods/simple-wallpaper-switcher.wh.cpp"
+        "sha256": "6f771ed025acf97b3d0bb37358c937ba605ef2a919221bb4b61cb90b99e878e8",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/77f823706af1031477bcd7caac23a924199bc6fb/mods/text-capitalization.wh.cpp"
       }
     },
     "titlebar-opacity-button": {
@@ -499,12 +402,12 @@
     "windows-border-switch": {
       "details": {
         "defaultSorting": 0,
-        "published": 1794796718242,
+        "published": 1795238451160,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795083727653,
+        "updated": 1795238451160,
         "users": 0
       },
       "metadata": {
@@ -527,12 +430,41 @@
         ],
         "license": "MIT",
         "name": "Windows Border Switch",
-        "version": "1.2.1"
+        "version": "1.2.6"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7408",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7750",
       "source": {
-        "sha256": "1b864f3700c4a0ca7bfcfbda69c0a31129cdf17d797a51513e0398534aade9ba",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/cf59db87d6f3fc309afb7f39794cb20d62f4e29c/mods/windows-border-switch.wh.cpp"
+        "sha256": "b82520fd5c2187ce98bf07ede01e7dfccc002ddb72be5d3f3686e9c44974f0a8",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/183aaa3a896dbc89e483b2cc049cc2b907231d37/mods/windows-border-switch.wh.cpp"
+      }
+    },
+    "windows-hello-auto-ok": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795238451160,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795238451160,
+        "users": 0
+      },
+      "metadata": {
+        "author": "hermanzamula",
+        "compilerOptions": "-lole32 -loleaut32 -luuid -luiautomationcore",
+        "description": "Language-independent confirmation of ready Windows Hello biometric dialogs across applications.",
+        "github": "https://github.com/hermanzamula",
+        "include": [
+          "CredentialUIBroker.exe"
+        ],
+        "license": "MIT",
+        "name": "Windows Hello Auto OK",
+        "version": "0.1.3"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/6929",
+      "source": {
+        "sha256": "bcb94ae75a1ebdae9968703816380d7eb067fa5934fdd26e8230276c12df0f5f",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/97280142169461b31c4604085dbd4f59112e5e98/mods/windows-hello-auto-ok.wh.cpp"
       }
     }
   }

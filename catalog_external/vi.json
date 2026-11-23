@@ -1,5 +1,94 @@
 {
   "mods": {
+    "acrylic-media-pill": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795411487908,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795411487908,
+        "users": 0
+      },
+      "metadata": {
+        "author": "nozwin",
+        "compilerOptions": "-DWINRT_NO_MODULE_LOCK -lole32 -loleaut32 -lruntimeobject -lgdiplus -ldwmapi -lshcore -lgdi32 -luser32 -lshell32",
+        "description": "Glass media pill for the taskbar (cover art, title/artist, mini visualizer) with a click-to-open player card. Dark / Light / Liquid Glass themes, smooth anti-aliased edges. Works with dock-style taskbars.",
+        "github": "https://github.com/nozwin",
+        "homepage": "https://github.com/nozwin/Acrylic-Media-Pill",
+        "include": [
+          "windhawk.exe"
+        ],
+        "name": "Acrylic Media Pill",
+        "version": "1.0.0"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7830",
+      "source": {
+        "sha256": "e3b2c3bc3e078dc85bf23bcc4880b4960bd4564d09ae0a510af9c80e1a32fe36",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/4b120b2bf65bbe07e66560d0a408bd5e2ef67540/mods/acrylic-media-pill.wh.cpp"
+      }
+    },
+    "aleph-canvas": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795411487908,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795411487908,
+        "users": 0
+      },
+      "metadata": {
+        "author": "CYoJkoY",
+        "compilerOptions": "-ladvapi32 -ld2d1 -ldwmapi -ldwrite -lgdi32 -lole32 -lshell32 -lshcore -luuid -lwindowscodecs",
+        "description": "Arrange open windows across a pannable canvas with live DWM previews.",
+        "github": "https://github.com/CYoJkoY",
+        "include": [
+          "windhawk.exe",
+          "windhawk-mod.exe"
+        ],
+        "license": "MIT",
+        "name": "Aleph - Infinite Window Canvas",
+        "version": "1.8.0"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7637",
+      "source": {
+        "sha256": "fce119a614fe7a7043ae41d71e484fc989ec0f71581929ee8d96dd176310837b",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/80d1d414458f03515a73ba2dfcba38934d5255dd/mods/aleph-canvas.wh.cpp"
+      }
+    },
+    "autoclean": {
+      "details": {
+        "defaultSorting": 0,
+        "published": 1795411487908,
+        "rating": 0,
+        "ratingBreakdown": [0, 0, 0, 0, 0],
+        "ratingUsers": 0,
+        "trendingSorting": 0,
+        "updated": 1795411487908,
+        "users": 0
+      },
+      "metadata": {
+        "author": "Ashix",
+        "compilerOptions": "-ladvapi32 -lole32 -loleaut32 -lshell32 -lshlwapi -lshcore -luser32 -lgdi32 -lgdiplus -ldwmapi -lwtsapi32 -luuid",
+        "description": "Event-driven background Temp folder and Recycle Bin cleaner with AI agent protection, oldest-first pruning, mouse shortcuts, and OLED toasts",
+        "donateUrl": "https://ko-fi.com/kashix",
+        "github": "https://github.com/k-ashix",
+        "include": [
+          "windhawk.exe"
+        ],
+        "name": "AutoClean",
+        "twitter": "https://x.com/k_ashix",
+        "version": "2.2026.2211"
+      },
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7707",
+      "source": {
+        "sha256": "c1cf3c66cc0b2cf473f72dd52d5d16f535ac0ea0f2fa251bdabdd648b81eebc0",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/75db1c317282a3fdc157091742dfd61ed6edf904/mods/autoclean.wh.cpp"
+      }
+    },
     "desktop-app-groups": {
       "details": {
         "defaultSorting": 0,
@@ -182,66 +271,6 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/721a9137674f8c731562f377925c9027c7af0a6d/mods/explorer-tabs-session-saver-revamped.wh.cpp"
       }
     },
-    "hide-snapped": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "coldfeudal",
-        "compilerOptions": "-lole32 -loleaut32 -lruntimeobject -ladvapi32 -lshell32 -luuid -lgdi32 -lcomctl32",
-        "description": "Group-only Alt+Tab and separate taskbar buttons with tiled member icons.",
-        "github": "https://github.com/coldfeudal",
-        "include": [
-          "explorer.exe"
-        ],
-        "license": "MIT",
-        "name": "Snap Groups: Alt+Tab and taskbar",
-        "version": "0.5.3"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7609",
-      "source": {
-        "sha256": "4bdc0202e42c9638ca9fd51435836d791c7c3e6cace25cd08acd83f37c8e0494",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/7c580ee0a0792936a65cda7b12b25c2f5ba0281e/mods/hide-snapped.wh.cpp"
-      }
-    },
-    "language-cursor": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795083727653,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "author": "Sanekx Arcs",
-        "compilerOptions": "-lgdiplus -lgdi32 -lshcore -loleacc -lole32 -luuid",
-        "description": "Shows the current keyboard layout as a small badge next to the mouse pointer, with a color, image or custom pointer for each language.",
-        "github": "https://github.com/SanekxArcs",
-        "include": [
-          "windhawk.exe"
-        ],
-        "name": "Language Cursor",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7642",
-      "source": {
-        "sha256": "0f3f24d54ebf3d7c11ff208e2dbe2070dec7b9d858de2770f1dd7049429673e4",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/b92841a48a1cd4b9d1eacf70b609f333f7aa54de/mods/language-cursor.wh.cpp"
-      }
-    },
     "lockscreen-background": {
       "details": {
         "defaultSorting": 0,
@@ -276,93 +305,33 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/760b91ecf9f50687cd4b2ed315b32d32ad8372ea/mods/lockscreen-background.wh.cpp"
       }
     },
-    "mac-text-keys": {
+    "same-app-window-cycler": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795322793237,
+        "published": 1795411487908,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795322793237,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
-        "author": "Caio Lemos",
-        "compilerOptions": "-lshell32",
-        "description": "Ctrl+Arrows jump to line start/end and Alt+Arrows jump by word, like Cmd/Option on macOS",
-        "github": "https://github.com/lemoscaio",
+        "author": "mdozkanji",
+        "compilerOptions": "-ldwmapi -lshell32",
+        "description": "macOS-style Cmd+` for Windows: cycle through the windows of the current app with Alt+` (Alt+Shift+` goes backwards)",
+        "github": "https://github.com/mdozkanji",
         "include": [
           "windhawk.exe"
         ],
         "license": "MIT",
-        "name": "Mac-style Text Navigation",
-        "version": "0.1"
+        "name": "Same-App Window Cycler (Alt+`)",
+        "version": "0.1.4"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7800",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7739",
       "source": {
-        "sha256": "40295b8cc234f70a42b775d2d6412fe9110e7bfc34eac301e362dee1795d9585",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/991fce6699190290a9e5dc3527bccae938ef2fa5/mods/mac-text-keys.wh.cpp"
-      }
-    },
-    "quick-share-tile": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "ThePsychof",
-        "compilerOptions": "-DWIN32_LEAN_AND_MEAN -lruntimeobject -lole32 -loleaut32 -lshell32 -lgdi32 -luuid",
-        "description": "Replaces the Windows 11 Nearby sharing tile with a Quick Share launcher.",
-        "github": "https://github.com/ThePsychof",
-        "include": [
-          "ShellHost.exe"
-        ],
-        "license": "GPL-3.0-only",
-        "name": "Quick Share Tile",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/6980",
-      "source": {
-        "sha256": "e90acf954ebdaedde85066e36d683f3acfba36556bbc99d906edce88f5e227f4",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/395456d8421c6c55b80acf50d1bfe2b40561f220/mods/quick-share-tile.wh.cpp"
-      }
-    },
-    "rdp-icon-refresh": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "author": "Solo_mag",
-        "compilerOptions": "-luser32 -lgdi32 -lshell32 -lwtsapi32 -lcomctl32",
-        "description": "Re-renders tray and taskbar button icons when you return to the local screen after a Remote Desktop session with a different scale, so they don't stay blurry",
-        "github": "https://github.com/Solomag",
-        "include": [
-          "explorer.exe"
-        ],
-        "name": "Sharp Taskbar Icons After Remote Desktop",
-        "version": "1.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7775",
-      "source": {
-        "sha256": "1e527e4ab4cef7ec3da3ed1f92318fac5b4f2335752c60d8b5b94240ea7b8ac5",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/8efc04e73cf69b1a153c5ff05b6bb0b7423b634f/mods/rdp-icon-refresh.wh.cpp"
+        "sha256": "88281afc1a4585c497cb77d0cb7fdaec87398b63442427c8c83337091d330d51",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/6e9706ac0f9bbeb620d3c8e087a8e5c3f8ef7708/mods/same-app-window-cycler.wh.cpp"
       }
     },
     "shell-font-changer-plus": {
@@ -373,13 +342,13 @@
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795238451160,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
         "author": "DavidHiFi",
         "compilerOptions": "-lgdi32 -luxtheme -ldwrite",
-        "description": "Any installed font in File Explorer, with icons and emoji left intact",
+        "description": "Any installed font and text size in File Explorer, with icons and emoji left intact",
         "donateUrl": "https://ko-fi.com/DavidHiFi",
         "github": "https://github.com/DavidHiFi",
         "homepage": "https://github.com/DavidHiFi/davids-windhawk-mods",
@@ -388,136 +357,43 @@
         ],
         "license": "MIT",
         "name": "Shell Font Changer Plus",
-        "version": "1.3.5"
+        "version": "1.4.2"
       },
       "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7342",
       "source": {
-        "sha256": "124c606301a06fcb1636b58b225c8e87ed8dbe283731a27a9783fb1575c3043c",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/eec67bcfb9e3f958b4262b825d369b89aa8cc1ac/mods/shell-font-changer-plus.wh.cpp"
+        "sha256": "2369ece55b9b2989c45106d79d53553da5d5b57f9a17493cde371fcb425a1ac7",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/c275045225aa8ba5159ec7e3d5b242a0d2ce9f35/mods/shell-font-changer-plus.wh.cpp"
       }
     },
-    "smtc-now-playing-widgets": {
+    "taskbar-app-state-indicators": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795238451160,
+        "published": 1795411487908,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795238451160,
-        "users": 0
-      },
-      "metadata": {
-        "author": "minster586",
-        "compilerOptions": "-lgdi32 -lole32 -loleaut32 -ld2d1 -ldwrite -lwindowscodecs -ldwmapi -lshcore -lruntimeobject -luuid",
-        "description": "Multi-instance, multi-monitor Windows 11 Acrylic Now Playing widgets powered natively by SMTC with Standard, Album, Cardstock, and Simplified themes.",
-        "github": "https://github.com/minster586",
-        "homepage": "https://links.smartcraft.me/@minster586",
-        "include": [
-          "windhawk.exe"
-        ],
-        "name": "SMTC Now Playing Desktop Widgets",
-        "version": "1.0.11"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7546",
-      "source": {
-        "sha256": "f646865be867eab005a2a151e6e9fb6e7efe71b78e48ae2d95d6a9bd5e2ff9f4",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/827cac49edf4cbe245942a611c6bc4ea54a1f2fb/mods/smtc-now-playing-widgets.wh.cpp"
-      }
-    },
-    "system-tray-breaktimer": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "author": "haniobaid",
-        "compilerOptions": "-luser32 -lgdi32 -lshell32 -ldwmapi -lwinmm -lwtsapi32",
-        "description": "Count down to windowed breaks in the notification area with a circular break timer and optional wind chimes.",
-        "github": "https://github.com/haniobaid",
-        "include": [
-          "windhawk.exe"
-        ],
-        "license": "MIT",
-        "name": "System Tray BreakTimer",
-        "version": "0.1.8"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7771",
-      "source": {
-        "sha256": "83343d9309ca85dc65a39abdba2d19fd437e0b39a2f03ccbb0604936badec00a",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/23f24713bcbac8e986246758ff7677f29d21273b/mods/system-tray-breaktimer.wh.cpp"
-      }
-    },
-    "system-tray-network-speedtest": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
         "architecture": [
           "x86-64"
         ],
-        "author": "joaomgabaldi",
-        "compilerOptions": "-DWIN32_LEAN_AND_MEAN -lshlwapi -lshell32 -lole32 -ladvapi32 -luser32 -ld2d1 -ld3d11 -ldcomp -ldwrite -ldwmapi -liphlpapi -lshcore -luuid -loleacc -loleaut32",
-        "description": "Replaces the network menu's web speed test with a native flyout powered by the Ookla Speedtest CLI: live gauge, ping, jitter, download, upload and a test history.",
-        "github": "https://github.com/joaomgabaldi",
-        "include": [
-          "ShellHost.exe",
-          "ShellExperienceHost.exe",
-          "SystemSettings.exe",
-          "RuntimeBroker.exe",
-          "explorer.exe"
-        ],
-        "name": "Ookla Speed Test for Network Menu",
-        "version": "1.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7799",
-      "source": {
-        "sha256": "1166aea917dbf902bbc12f57cf6bdd3a1bb8dd3244f709f558003a21a81089a2",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/e294035edd4a98e7c13d26d624edf004175ffb0f/mods/system-tray-network-speedtest.wh.cpp"
-      }
-    },
-    "taskbar-mini-folders": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "Sanekx Arcs",
-        "compilerOptions": "-lole32 -loleaut32 -lruntimeobject -lshell32 -lshlwapi -lgdi32 -lmsimg32 -ldwmapi -lshcore -luuid",
-        "description": "Adds mini folders with a 2x2 icon preview to the Windows 11 taskbar. Click one to open a panel with all its apps, files and shortcuts.",
-        "github": "https://github.com/SanekxArcs",
+        "author": "Deen-0x",
+        "compilerOptions": "-lole32 -loleaut32 -lruntimeobject -ldwmapi -ld2d1",
+        "description": "Marks taskbar buttons by window state on a frame around the icon: corner marks for open and maximized windows, an underline for minimized apps, dots for several windows or a badge, and progress, all animated along the frame.",
+        "github": "https://github.com/Deen-0x",
         "include": [
           "explorer.exe"
         ],
-        "name": "Taskbar Mini Folders",
-        "version": "1.1.0"
+        "name": "Taskbar App State Indicators",
+        "version": "1.0.0"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7802",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7747",
       "source": {
-        "sha256": "d9cb056083ed87b1b2505bffec4b35a4069859fa4d39a363bc53c9cc1f656c71",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/8f54ef2b9c7a3279d22d9f1d8ef2961dd2a50d7d/mods/taskbar-mini-folders.wh.cpp"
+        "sha256": "a95200e2448abfd8c6b3e438a077631b29fa5f31a28d53e2d7fc437ec17be652",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/3ffb7a9eea45a80dcb66b1276ff21cfee84b41c0/mods/taskbar-app-state-indicators.wh.cpp"
       }
     },
     "taskbar-weather": {
@@ -611,66 +487,62 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/3b284d718598ae924d4af8f3af3959f4e5c46d47/mods/titlebar-opacity-button.wh.cpp"
       }
     },
-    "volu-macos-volume-hud": {
+    "twinkle-brightness": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795322793237,
+        "published": 1795411487908,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795322793237,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
-        "author": "Kouqqu",
-        "compilerOptions": "-lgdiplus -lgdi32 -lole32 -lwinmm -lshcore",
-        "description": "Authentic macOS-style volume HUD for Windows with audio clicks",
-        "donateUrl": "https://dalink.to/koukku",
-        "github": "https://github.com/Kouqqu",
-        "homepage": "https://github.com/Kouqqu/Volu",
+        "author": "isousluer",
+        "compilerOptions": "-ldxva2 -lgdiplus -ldwmapi -lshcore -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -lwbemuuid -ladvapi32",
+        "description": "Brightness sliders for every display in the system tray, with hotkeys, an on-screen indicator, time-based schedules, and idle dimming",
+        "github": "https://github.com/isousluer",
+        "homepage": "https://github.com/isousluer/twinkle-brightness",
         "include": [
           "windhawk.exe"
         ],
-        "name": "Volu - macOS Volume HUD",
-        "version": "1.0.0"
+        "license": "MIT",
+        "name": "Twinkle Brightness",
+        "version": "1.1.0"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7788",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7786",
       "source": {
-        "sha256": "abc07bad6c8019ceeda2082c33a5fb22c12c7ac1d03b403fbafb41b0b596d740",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/1ab68558cc75dd2a732870144c3a3af22ccfab0a/mods/volu-macos-volume-hud.wh.cpp"
+        "sha256": "53f1195dbd488733b641eafb12505cb1db5cc2dd079a1e9ce03015db368dd5fe",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/3fded2a8922236ec21cde4fff3d70724b37c6209/mods/twinkle-brightness.wh.cpp"
       }
     },
-    "win11-ime-tray-icon-fix": {
+    "volume-key-step": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795322793237,
+        "published": 1795411487908,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795322793237,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
-        "architecture": [
-          "x86-64"
-        ],
-        "author": "yumeyao",
-        "compilerOptions": "-lole32 -loleaut32 -lruntimeobject -lversion",
-        "description": "Moves the input indicator to the left of the notification area so its width change cannot shift the tray icons.",
-        "github": "https://github.com/yumeyao",
+        "author": "Artistro08",
+        "compilerOptions": "-lole32",
+        "description": "Choose how much each volume key press raises or lowers the volume",
+        "github": "https://github.com/artistro08",
         "include": [
           "explorer.exe"
         ],
-        "license": "MIT",
-        "name": "Windows 11 IME Tray Icon Fix",
+        "name": "Volume Key Step",
         "version": "1.0"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7448",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7854",
       "source": {
-        "sha256": "e6d4b1b015eba51ba5830c2f7a7f2abb6aeb47778e056584803a0c2262853013",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/ac5e1620cbfdd6b69dac498805e468c5453e1fcc/mods/win11-ime-tray-icon-fix.wh.cpp"
+        "sha256": "0f4574b2856d9882baf69641cbbea3d7a2729ffd488f08833c69db7302456cd8",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/81879c640468b04eb36377210b4b50d72e70222a/mods/volume-key-step.wh.cpp"
       }
     },
     "windows-11-lock-screen-styler": {
@@ -704,69 +576,36 @@
         "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/c2226cdb15a3684219163cfcf0dbeeb4c02ab62a/mods/windows-11-lock-screen-styler.wh.cpp"
       }
     },
-    "windows-hello-auto-ok": {
+    "zoomit": {
       "details": {
         "defaultSorting": 0,
-        "published": 1795238451160,
+        "published": 1795411487908,
         "rating": 0,
         "ratingBreakdown": [0, 0, 0, 0, 0],
         "ratingUsers": 0,
         "trendingSorting": 0,
-        "updated": 1795238451160,
+        "updated": 1795411487908,
         "users": 0
       },
       "metadata": {
-        "author": "hermanzamula",
-        "compilerOptions": "-lole32 -loleaut32 -luuid -luiautomationcore",
-        "description": "Language-independent confirmation of ready Windows Hello biometric dialogs across applications.",
-        "github": "https://github.com/hermanzamula",
+        "author": "DavidHiFi",
+        "compilerOptions": "-ld2d1 -ldwrite -lwindowscodecs -lole32 -luuid -lgdi32 -luser32 -lshell32 -ladvapi32 -ldwmapi",
+        "description": "Zoom into the screen and draw on it with a hotkey, like Sysinternals ZoomIt",
+        "donateUrl": "https://ko-fi.com/DavidHiFi",
+        "github": "https://github.com/DavidHiFi",
+        "homepage": "https://github.com/DavidHiFi/davids-windhawk-mods",
         "include": [
-          "CredentialUIBroker.exe"
+          "windhawk.exe",
+          "windhawk-mod.exe",
+          "windhawk-mod-uiaccess.exe"
         ],
-        "license": "MIT",
-        "name": "Windows Hello Auto OK",
-        "version": "0.1.3"
+        "name": "ZoomIt",
+        "version": "1.3.0"
       },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/6929",
+      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7541",
       "source": {
-        "sha256": "bcb94ae75a1ebdae9968703816380d7eb067fa5934fdd26e8230276c12df0f5f",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/97280142169461b31c4604085dbd4f59112e5e98/mods/windows-hello-auto-ok.wh.cpp"
-      }
-    },
-    "zoneshift": {
-      "details": {
-        "defaultSorting": 0,
-        "published": 1795322793237,
-        "rating": 0,
-        "ratingBreakdown": [0, 0, 0, 0, 0],
-        "ratingUsers": 0,
-        "trendingSorting": 0,
-        "updated": 1795322793237,
-        "users": 0
-      },
-      "metadata": {
-        "author": "Dev-StudioCode",
-        "compilerOptions": "-ladvapi32 -luser32",
-        "description": "Spoof timezone and local time for specific apps without altering the Windows system clock.",
-        "github": "https://github.com/Dev-StudioCode",
-        "homepage": "https://github.com/Dev-StudioCode/ZoneShift",
-        "include": [
-          "wallpaper32.exe",
-          "wallpaper64.exe",
-          "webwallpaper32.exe",
-          "webwallpaper64.exe",
-          "edgewallpaper32.exe",
-          "edgewallpaper64.exe",
-          "ui32.exe",
-          "wallpaperui.exe"
-        ],
-        "name": "ZoneShift - Per-App Timezone Spoofer",
-        "version": "1.0.0"
-      },
-      "pullRequest": "https://github.com/ramensoftware/windhawk-mods/pull/7545",
-      "source": {
-        "sha256": "cd866bf04d6f1226376933207eb4864acf8e30a1b056b0ceab3421a7e71cb4e8",
-        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/6aa2a5a8829ee08ec59bdfd7e9057922fea422f3/mods/zoneshift.wh.cpp"
+        "sha256": "7d4aaffa606b5b6d230e9dbc46db7ec90aea919e04025e95cf752b36ae5c9ed4",
+        "url": "https://raw.githubusercontent.com/ramensoftware/windhawk-mods/e2af281f6e83a75dec896ceb0978a25854098952/mods/zoomit.wh.cpp"
       }
     }
   }
